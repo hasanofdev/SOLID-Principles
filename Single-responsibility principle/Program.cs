@@ -59,8 +59,6 @@ public class MicrosoftDetailFactory : IComputerDetalFactory
     public Ram CreateRam() => new Ram() { Size = 64, Title = "Kingston FURY Renegade 64GB" };
 }
 
-
-
 class Program
 {
     static void Main(string[] args)
@@ -77,4 +75,3 @@ class Program
         Console.WriteLine($"\n{comp}");        
     }
 }
-
